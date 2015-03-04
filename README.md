@@ -26,6 +26,8 @@ To create a Document.pdf file:
 
 ## License: WTFPL
 
+Copyright (C) 2015 Javier Rizzo
+
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
