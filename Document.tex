@@ -1,0 +1,32 @@
+\documentclass[letterpaper, 12pt, jou, apacite]{apa6}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+
+\onehalfspacing
+
+\title{Your Paper Title}
+\author{Your Name}
+\date{6 de enero de 1996}
+\def \school {CENTRO DE ENSEÑANZA TÉCNICA Y SUPERIOR}
+\def \subschool {Escuela de Ingeniería}
+\def \schoollogo {./img/cetyslogo}
+\def \subject {Your Subject}
+\def \IDno {Your ID }
+\def \city {Mexicali, B.C.}
+
+\makeatletter
+\let\Title\@title
+\let\Author\@author
+\let\Date\@date
+\makeatother
+
+\begin{document}
+    \input{./TitlePage.tex}
+
+    %TODO: Write paper
+
+    %Uncomment next two lines to add references page
+    %\newpage
+    %\bibliography{bibliography}
+\end{document}
